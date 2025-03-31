@@ -14,6 +14,7 @@ struct ContentView: View {
     @State private var showHistory: Bool = false
     @State private var selectedFromLanguage = "English"
     @State private var selectedToLanguage = "Spanish"
+    private let translationPlaceholder: String = "Translating..."
     
     private let languages: [String: String] = [
         "Arabic": "ar",
@@ -60,7 +61,7 @@ struct ContentView: View {
         }
         
         DispatchQueue.main.async {
-            self.translatedText = "Translating..."
+            self.translatedText = translationPlaceholder
         }
         
         do {
@@ -124,7 +125,7 @@ struct ContentView: View {
             get: { translatedText },
             set: { newValue in translatedText = newValue }))
         .padding(10)
-        .foregroundColor(Constants.foregroundColor)
+        .foregroundColor(self.translatedText == translationPlaceholder ? Color.gray : Constants.foregroundColor)
         .font(.custom("HelveticaNeue", size: 17))
         .disableAutocorrection(true)
         .scrollContentBackground(.hidden)
