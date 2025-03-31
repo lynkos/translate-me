@@ -15,8 +15,6 @@ struct ContentView: View {
     @State private var selectedFromLanguage = "English"
     @State private var selectedToLanguage = "Spanish"
     
-    let placeholder: String = "Enter text to translate here..."
-
     private let languages: [String: String] = [
         "Arabic": "ar",
         "Chinese": "zh",
@@ -108,7 +106,7 @@ struct ContentView: View {
             .overlay(
                 Group {
                     if inputText.isEmpty {
-                        Text(placeholder)
+                        Text("Enter text to translate here...")
                             .foregroundColor(Color.gray)
                             .padding()
                     }
