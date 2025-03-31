@@ -61,7 +61,7 @@ struct HistoryView: View {
                 .font(.title3)
                 .frame(maxWidth: .infinity, alignment: .center)
                 .padding()
-                .background(Color.red)
+                .background(Color.red.gradient)
                 .foregroundColor(Color.white)
                 .clipShape(Capsule())
         }

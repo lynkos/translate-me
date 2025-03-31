@@ -196,7 +196,7 @@ struct ContentView: View {
                 .font(.title3)
                 .frame(maxWidth: .infinity, alignment: .center)
                 .padding()
-                .background(Constants.accentColor)
+                .background(Constants.translateButtonColor)
                 .foregroundColor(Color.white)
                 .clipShape(Capsule())
         }

@@ -12,4 +12,5 @@ struct Constants {
     static let backgroundColor: Color = Color.indigo.opacity(0.15)
     static let textBoxColor: Color = Color(UIColor.systemGray6)
     static let accentColor: Color = Color.indigo
+    static let translateButtonColor: AnyGradient = Color.indigo.gradient
 }
