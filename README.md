@@ -1,5 +1,5 @@
 # Project 6 - *TranslateMe*
-App that translates between languages and allows users to store and delete their translations.
+iOS app that translates between languages and allows users to store and delete their translations.
 
 ## Features
 - [x] Users open the app to a TranslationMe home page with a place to enter a word, phrase or sentence, a button to translate, and another field that should initially be empty
@@ -18,7 +18,6 @@ App that translates between languages and allows users to store and delete their
   </div>
 
 ## License
-
     Copyright 2025 Kiran Brahmatewari
 
     Licensed under the Apache License, Version 2.0 (the "License");
