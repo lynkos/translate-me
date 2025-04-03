@@ -1,41 +1,21 @@
 # Project 6 - *TranslateMe*
+App that translates between languages and allows users to store and delete their translations.
 
-Submitted by: **Kiran Brahmatewari**
-
-**TranslateMe** is an app that translates between languages and allows users to store and delete their translations.
-
-Time spent: **8** hours spent in total
-
-## Required Features
-
-The following **required** functionality is completed:
-
+## Features
 - [x] Users open the app to a TranslationMe home page with a place to enter a word, phrase or sentence, a button to translate, and another field that should initially be empty
-- [x] When users tap translate, the word written in the upper field translates in the lower field. The requirement is only that you can translate from one language to another.
+- [x] When users tap translate, the word written in the upper field translates in the lower field; you can only translate from one language to another
 - [x] A history of translations can be stored (in a scroll view in the same screen, or a new screen)
 - [x] The history of translations can be erased
- 
-The following **optional** features are implemented:
-
 - [x] Add a variety of choices for the languages
 - [x] Add UI flair
+- [x] Add button to conveniently switch languages
 
-The following **additional** features are implemented:
-
-- [x] Add button to conveniently switch languages.
-
-## Video Walkthrough
-
-Here's a walkthrough of implemented user stories:
-
+## Demo
 <div>
     <a href="https://www.loom.com/share/8201c699706640cdb368abc693a09d38">
       <img style="max-width:300px;" src="https://cdn.loom.com/sessions/thumbnails/8201c699706640cdb368abc693a09d38-7c685253a31533a9-full-play.gif">
     </a>
   </div>
-
-## Notes
-The most time-consuming part was probably creating the right model to parse API responses. Other than that, it was painless, fun, and straightforward.
 
 ## License
 
