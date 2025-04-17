@@ -54,7 +54,7 @@ service cloud.firestore {
 ```
 
 > [!TIP]
-> This is a rule for all authenticated users
+> This is a rule for all authenticated users (though this is out of the scope of this project)
 > ```
 > rules_version = '2';
 > 
